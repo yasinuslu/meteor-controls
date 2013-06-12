@@ -1,3 +1,10 @@
+A user interface control library for Meteor.
+
+###Install
+```
+> mrt add controls
+```
+
 ```javascript
 Control.create('Form', {
   initialize: function (options) {

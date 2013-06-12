@@ -1,5 +1,5 @@
 Package.describe({
-  summary: 'UI control library for Meteor' 
+  summary: 'UI Controls for Meteor'
 });
 
 Package.on_use(function (api) {

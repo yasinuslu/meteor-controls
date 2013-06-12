@@ -34,7 +34,7 @@ Control.create('Form', {
 });
 
 Control.create('LoginForm', {
-  extends: Form,
+  extend: Form,
 
   onSubmit: function (form) {
     // do something with the form

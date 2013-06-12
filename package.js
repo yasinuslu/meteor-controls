@@ -4,11 +4,19 @@ Package.describe({
 
 Package.on_use(function (api) {
   api.use('handlebars', 'client');
-  api.add_files('control.js', 'client');
+
+  api.add_files([
+    'lib/control.js',
+    'lib/form/form.js'
+  ], 'client');
 });
 
 Package.on_test(function (api) {
-  api.use('control', 'client');
+  api.use('controls', 'client');
   api.use(['tinytest', 'test-helpers'], 'client');
-  api.add_files('control-test.js', 'client');
+
+  api.add_files([
+    'lib/control-test.js',
+    'lib/form/form-test.js'
+  ], 'client');
 });

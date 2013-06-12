@@ -1,7 +1,7 @@
 {
   "name": "controls",
   "description": "UI Controls for Meteor",
-  "homepage": "https://github.com/eventedmind/meteor-controls"
+  "homepage": "https://github.com/eventedmind/meteor-controls",
   "author": "Chris Mather <mather@eventedmind.com>",
   "version": "0.0.1",
   "git": "https://github.com/eventedmind/meteor-controls.git",

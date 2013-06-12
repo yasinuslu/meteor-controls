@@ -3,7 +3,7 @@
   "description": "UI Controls for Meteor",
   "homepage": "https://github.com/eventedmind/meteor-controls",
   "author": "Chris Mather <mather@eventedmind.com>",
-  "version": "0.0.2",
-  "git": "git@github.com:EventedMind/meteor-controls.git",
+  "version": "0.0.4",
+  "git": "https://github.com/EventedMind/meteor-controls.git",
   "packages": {}
 }

@@ -24,7 +24,6 @@ Package.on_test(function (api) {
 
   api.add_files([
     'lib/control-test.js',
-    'lib/controls/form/form-test.html',
     'lib/controls/form/form-test.js'
   ], 'client');
 });
